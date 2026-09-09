@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="loadingModal">
+            <div>Cargando...</div>
+        </div>
+        <header>
+            <div>
+                <img src="logo.png" height="48px" width="48px" alt="Company's logo" class="logo">
+                <!-- <h1>Arcuri Zaya Seguros</h1> -->
+                <h1>Arcuri Zaya Seguros</h1>
+            </div>
+            <nav>
+                 <button aria-label="Toggle navigation" class="navToggle">
+                    <img src="hamburger.svg" alt="Menu" height="48px" width="48px">
+                </button>
+                <ul class="navList">
+                    <li>Seguros</li>
+                    <li>Empresas</li>
+                    <li>ART</li>
+                    <li>Siniestros</li>
+                    <li>Nosotros</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            <button class="ctaHeader">Cotizar<span> un seguro</span></button>
+        </header>
+        <main>
+            <h2>Cotizador de póliza</h1>
+            <h3>Automóviles</h3>
+            <section class="userInput">
+                <form>
+                    <fieldset>
+                        <legend>Datos del Vehículo</legend>
+                        <p>¿Qué auto te gustaría cotizar?</p>
+                        <label for="brand">Marca</label>
+                        <select id="brand" name="brand">
+                            <option value="null" default></option>
+                            <!-- DYNAMIC RENDERING BRANDS -->
+                        </select>
+                        <label for="model">Modelo</label>
+                        <select id="model" name="model">
+                            <option value="null" default></option>
+                            <!-- DYNAMIC RENDERING MODELS -->
+                        </select>
+                        <label for="version">Versión</label>
+                        <select id="version" name="version">
+                            <option value="null" default></option>
+                            <!-- DYNAMIC RENDERING VERSIONS -->
+                        </select>
+                        <label for="year">Año</label>
+                        <select id="year" name="year">
+                            <option value="null" default></option>
+                            <!-- DYNAMIC RENDERING YEARS -->
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos del Asegurado</legend>
+                        <p>¿Dónde vive el asegurado?</p>
+                        <label for="province">Provincia</label>
+                        <select id="province" name="province">
+                            <option value="null" default></option>
+
+                            <!-- DYNAMIC RENDERING PROVINCES -->
+                        </select>
+                        <label for="department">Localidad</label>
+                        <select id="department" name="department">
+                            <option value="null" default></option>
+
+                            <!-- DYNAMIC RENDERING DEPARTMENTS -->
+                        </select>
+                    </fieldset>
+                    <button type="submit" class="submitFormBtn disable">Cotizar</button>
+                </form>
+            </section>
+            <section class="cotizacion hide">
+                <table>
+                    <tr>
+                        <th>Compañía</th>
+                        <th>Terceros completo</th>
+                        <th>Todo riesgo con franquicia</th>
+                        <th>Todo riesgo sin franquicia</th>
+                    </tr>
+                    <tr>
+                        <td><img src="sancor.png" width="100px" height:="100px" alt="Sancor Seguros"/></td>
+                        <td class="sancorOne valor"></td>
+                        <td class="sancorTwo valor"></td>
+                        <td class="sancorThree valor"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="lasegunda.png" width="100px" height:="100px" alt="La Segunda Seguros"/></td>
+                        <td class="laSegOne valor"></td>
+                        <td class="laSegTwo valor"></td>
+                        <td class="laSegThree valor"></td>
+                    </tr>
+                </table>   
+                <div>
+                    <button class="ctaEnd">¿Avanzamos?</button>
+                    <button class="restart">Obtené otra cotización</button>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script type="module" src="script.js"></script>
+</html>

@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "AGRALE",
+      "slug": "agrale"
+    },
+    {
+      "id": 2,
+      "name": "ALFA ROMEO",
+      "slug": "alfa-romeo"
+    },
+    {
+      "id": 65,
+      "name": "ARCFOX",
+      "slug": "arcfox"
+    },
+    {
+      "id": 3,
+      "name": "AUDI",
+      "slug": "audi"
+    },
+    {
+      "id": 4,
+      "name": "BAIC",
+      "slug": "baic"
+    },
+    {
+      "id": 5,
+      "name": "BMW",
+      "slug": "bmw"
+    },
+    {
+      "id": 6,
+      "name": "BYD",
+      "slug": "byd"
+    },
+    {
+      "id": 7,
+      "name": "CHANGAN",
+      "slug": "changan"
+    },
+    {
+      "id": 8,
+      "name": "CHERY",
+      "slug": "chery"
+    },
+    {
+      "id": 9,
+      "name": "CHEVROLET",
+      "slug": "chevrolet"
+    },
+    {
+      "id": 10,
+      "name": "CHRYSLER",
+      "slug": "chrysler"
+    },
+    {
+      "id": 11,
+      "name": "CITROEN",
+      "slug": "citroen"
+    },
+    {
+      "id": 12,
+      "name": "DFSK",
+      "slug": "dfsk"
+    },
+    {
+      "id": 13,
+      "name": "DODGE",
+      "slug": "dodge"
+    },
+    {
+      "id": 70,
+      "name": "DOMY",
+      "slug": "domy"
+    },
+    {
+      "id": 14,
+      "name": "DONGFENG",
+      "slug": "dongfeng"
+    },
+    {
+      "id": 15,
+      "name": "DS AUTOMOBILES",
+      "slug": "ds-automobiles"
+    },
+    {
+      "id": 16,
+      "name": "FAW",
+      "slug": "faw"
+    },
+    {
+      "id": 17,
+      "name": "FERRARI",
+      "slug": "ferrari"
+    },
+    {
+      "id": 18,
+      "name": "FIAT",
+      "slug": "fiat"
+    },
+    {
+      "id": 19,
+      "name": "FORD",
+      "slug": "ford"
+    },
+    {
+      "id": 20,
+      "name": "FORTHING",
+      "slug": "forthing"
+    },
+    {
+      "id": 21,
+      "name": "FOTON",
+      "slug": "foton"
+    },
+    {
+      "id": 64,
+      "name": "GAC",
+      "slug": "gac"
+    },
+    {
+      "id": 22,
+      "name": "GEELY",
+      "slug": "geely"
+    },
+    {
+      "id": 23,
+      "name": "GREAT WALL",
+      "slug": "great-wall"
+    },
+    {
+      "id": 24,
+      "name": "HAVAL",
+      "slug": "haval"
+    },
+    {
+      "id": 25,
+      "name": "HONDA",
+      "slug": "honda"
+    },
+    {
+      "id": 26,
+      "name": "HYUNDAI",
+      "slug": "hyundai"
+    },
+    {
+      "id": 27,
+      "name": "ISUZU",
+      "slug": "isuzu"
+    },
+    {
+      "id": 28,
+      "name": "JAC",
+      "slug": "jac"
+    },
+    {
+      "id": 29,
+      "name": "JAGUAR",
+      "slug": "jaguar"
+    },
+    {
+      "id": 30,
+      "name": "JEEP",
+      "slug": "jeep"
+    },
+    {
+      "id": 31,
+      "name": "JETOUR",
+      "slug": "jetour"
+    },
+    {
+      "id": 32,
+      "name": "JMC",
+      "slug": "jmc"
+    },
+    {
+      "id": 33,
+      "name": "JMEV",
+      "slug": "jmev"
+    },
+    {
+      "id": 34,
+      "name": "KAIYI",
+      "slug": "kaiyi"
+    },
+    {
+      "id": 35,
+      "name": "KIA",
+      "slug": "kia"
+    },
+    {
+      "id": 36,
+      "name": "KYC",
+      "slug": "kyc"
+    },
+    {
+      "id": 37,
+      "name": "LAND ROVER",
+      "slug": "land-rover"
+    },
+    {
+      "id": 76,
+      "name": "LEAPMOTOR",
+      "slug": "leapmotor"
+    },
+    {
+      "id": 38,
+      "name": "LEXUS",
+      "slug": "lexus"
+    },
+    {
+      "id": 39,
+      "name": "LIFAN",
+      "slug": "lifan"
+    },
+    {
+      "id": 40,
+      "name": "LOTUS",
+      "slug": "lotus"
+    },
+    {
+      "id": 71,
+      "name": "LYNK&CO",
+      "slug": "lynkco"
+    },
+    {
+      "id": 42,
+      "name": "MASERATI",
+      "slug": "maserati"
+    },
+    {
+      "id": 43,
+      "name": "MAXUS",
+      "slug": "maxus"
+    },
+    {
+      "id": 41,
+      "name": "McLAREN",
+      "slug": "mclaren"
+    },
+    {
+      "id": 44,
+      "name": "MERCEDES BENZ",
+      "slug": "mercedes-benz"
+    },
+    {
+      "id": 45,
+      "name": "MG",
+      "slug": "mg"
+    },
+    {
+      "id": 46,
+      "name": "MINI COOPER",
+      "slug": "mini-cooper"
+    },
+    {
+      "id": 47,
+      "name": "MITSUBISHI",
+      "slug": "mitsubishi"
+    },
+    {
+      "id": 48,
+      "name": "NISSAN",
+      "slug": "nissan"
+    },
+    {
+      "id": 49,
+      "name": "PEUGEOT",
+      "slug": "peugeot"
+    },
+    {
+      "id": 50,
+      "name": "PORSCHE",
+      "slug": "porsche"
+    },
+    {
+      "id": 51,
+      "name": "RAM",
+      "slug": "ram"
+    },
+    {
+      "id": 74,
+      "name": "RELY",
+      "slug": "rely"
+    },
+    {
+      "id": 52,
+      "name": "RENAULT",
+      "slug": "renault"
+    },
+    {
+      "id": 53,
+      "name": "SHINERAY",
+      "slug": "shineray"
+    },
+    {
+      "id": 54,
+      "name": "SKYWELL",
+      "slug": "skywell"
+    },
+    {
+      "id": 55,
+      "name": "SMART",
+      "slug": "smart"
+    },
+    {
+      "id": 56,
+      "name": "SOUEAST",
+      "slug": "soueast"
+    },
+    {
+      "id": 57,
+      "name": "SSANGYONG",
+      "slug": "ssangyong"
+    },
+    {
+      "id": 58,
+      "name": "SUBARU",
+      "slug": "subaru"
+    },
+    {
+      "id": 59,
+      "name": "SUZUKI",
+      "slug": "suzuki"
+    },
+    {
+      "id": 60,
+      "name": "TOYOTA",
+      "slug": "toyota"
+    },
+    {
+      "id": 61,
+      "name": "VOLKSWAGEN",
+      "slug": "volkswagen"
+    },
+    {
+      "id": 62,
+      "name": "VOLVO",
+      "slug": "volvo"
+    },
+    {
+      "id": 63,
+      "name": "ZANELLA",
+      "slug": "zanella"
+    }
+  ],
+  "links": {
+    "first": "https://argautos.com/api/v1/brands?page=1",
+    "last": null,
+    "prev": null,
+    "next": null
+  },
+  "meta": {
+    "current_page": 1,
+    "current_page_url": "https://argautos.com/api/v1/brands?page=1",
+    "from": 1,
+    "path": "https://argautos.com/api/v1/brands",
+    "per_page": 100,
+    "to": 69
+  }
+}
