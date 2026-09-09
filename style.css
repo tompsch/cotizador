@@ -103,18 +103,25 @@ header h1 {
 }
 main {
     padding: 1rem 0;
-    place-items: center;
+    /* place-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 main h2 {
     font-weight: bold;
     font-size: 1.9375rem;
     margin: 1rem 3rem;
+    align-self: flex-start;
 }
 main h3 {
     margin: 1rem 3rem;
     font-weight: normal;
     font-size: 1rem;
     color: var(--lightText);
+    align-self: flex-start;
+
 }
 nav ul {
     display: flex;
@@ -129,11 +136,10 @@ nav ul li {
 }
 
 section.userInput {
-    place-items: center;
     width: 50%;
 }
 form {
-    padding: 2rem 0;
+    padding: 1rem 0;
     width: 100%;
     display: flex;
     flex-direction: column;
