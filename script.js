@@ -1,4 +1,4 @@
-import { cotizar } from "/cotizador.js"
+import { cotizar } from "./cotizador.js"
 
 async function main () {
     await getData("brands");
