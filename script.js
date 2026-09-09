@@ -15,7 +15,7 @@ async function getData(dataType, event) {
         case("brands"): {
             // FETCHING BRANDS ONCE FROM SCRAPE TO REDUCE REQUESTS
             // https://argautos.com/api/v1/brands?per_page=100
-            url = 'brands.json';
+            url = './brands.json';
             displayFunction = (data) => displayData("brands", data);
             break;
         } 
