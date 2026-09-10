@@ -38,13 +38,15 @@ async function getData(dataType, event) {
             break;
         }
         case("provinces"): {
-            url = `https://apis.datos.gob.ar/georef/api/v2.0/provincias?campos=basico&max=999&inicio=0`;
+            // url = `https://apis.datos.gob.ar/georef/api/v2.0/provincias?campos=basico&max=999&inicio=0`;
+            url = `./provincias.json`;
             displayFunction = (data) => displayData("provinces", data);
             break;
         } 
         case("depts"): {
             query = event.target.value;
-            url = `https://apis.datos.gob.ar/georef/api/v2.0/departamentos?provincia=${query}&campos=basico&max=5000&inicio=0`;
+            // url = `https://apis.datos.gob.ar/georef/api/v2.0/departamentos?provincia=${query}&campos=basico&max=5000&inicio=0`;
+            url = `./departamentos.json`;
             displayFunction = (data) => displayData("depts", data);
             break;
         }
@@ -76,6 +78,12 @@ function displayData (dataType, elements) {
     let query;
     let objectAccess = "name";
 
+    // JUST BECAUSE GOVERNMENT API REMOVED CORS HEADERS (USING LOCAL DATA)
+    if(dataType === "depts") {
+        const queryProv = document.querySelector("#province").value;
+        elements = elements.filter((department) => department.provincia.id === queryProv);
+    }
+    //
     switch (dataType) {
         case("brands"): {
             query = "#brand";
